@@ -1,0 +1,164 @@
+/*#imagem-top{
+    background-image: url("../imagens/vivafloripamenor.png");
+    height: 90px;
+}*/
+
+body{
+    
+}
+
+#pagina-inicial{
+    
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#brand{
+    background-color: #c5cecf;  
+}
+
+
+/*#imagem-barra{
+    margin: 0px;
+    border: 2px solid red;
+    height: 100px;
+    width: 800px;
+    margin: 0px;
+    display: inline-block;
+    padding: 0px;
+}*/
+
+#imagem-barra{
+    display: flex;
+}
+
+.barra-menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c5cecf;
+    height: 5vh;
+    align-items: center;
+    margin: 0px;
+    margin-top: 0px;
+}
+.menu-item{
+    font-family: Helvetica;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.aqui{
+    text-decoration: none;
+    color: black;
+}
+.aqui:hover{
+    color: #FF66C4;
+    font-weight: bold;
+}
+
+#sobre{
+    width: 980px;
+    height: 240px;
+    display: flex;
+    font-family: Helvetica;
+    background-color: #c5cecf;
+    margin-top: 10px;
+    padding: 10px;
+}
+#sobre-imagem-mapa{
+    width: 212px;
+    height: 238px;
+    margin: 0px;
+    border: 3px solid #FF66C4;
+}
+#texto-sobre{
+    text-align: justify;
+    padding: 10px;
+}
+#titulo-sobre{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#curiosidades{
+width: 980px;
+height: 240px;
+display: flex;
+font-family: Helvetica;
+background-color: #c5cecf;
+margin-top: 10px;
+padding: 10px;
+}
+
+#imagem-curiosidades{
+    width: 310;
+    height: 162;
+    margin: 0px;
+    border: 3px solid #28ff0d;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#texto-curiosidades{
+    text-align: justify;
+    padding: 10px;
+}
+
+#titulo-curiosidades{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#hospedagem{
+    width: 980px;
+    height: 240px;
+    display: flex;
+    font-family: Helvetica;
+    background-color: #c5cecf;
+    margin-top: 10px;
+    padding: 10px; 
+}
+
+#imagem-hospedagem{
+    width: 600px;
+    height: 200px;
+    margin: 0px;
+    border: 3px solid #ffbd59;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+#texto-hospedagem{
+    width: 400px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#titulo-hospedagem{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #c5cecf;
+    color: black;
+    width: 1000px;
+    height: 50px;
+    bottom: 0px;  
+    text-align: center;
+    font-family: Helvetica;
+
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+#texto-footer{
+    margin-left: auto;
+    margin-right: auto;
+}

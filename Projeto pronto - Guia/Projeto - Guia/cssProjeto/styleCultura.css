@@ -1,0 +1,161 @@
+/*#imagem-top{
+    background-image: url("../imagens/vivafloripamenor.png");
+    height: 90px;
+}*/
+
+body{
+   
+}
+
+#pagina-inicial{
+    
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#brand{
+    background-color: #c5cecf;  
+}
+
+
+/*#imagem-barra{
+    margin: 0px;
+    border: 2px solid red;
+    height: 100px;
+    width: 800px;
+    margin: 0px;
+    display: inline-block;
+    padding: 0px;
+}*/
+
+#imagem-barra{
+    display: flex;
+}
+
+.barra-menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c5cecf;
+    height: 5vh;
+    align-items: center;
+    margin: 0px;
+    margin-top: 0px;
+}
+.menu-item{
+    font-family: Helvetica;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.aqui{
+    text-decoration: none;
+    color: black;
+}
+.aqui:hover{
+    color: #FF66C4;
+    font-weight: bold;
+}
+
+#cultura{
+    width: 980px;
+    height: 240px;
+    display: flex;
+    font-family: Helvetica;
+    background-color: #c5cecf;
+    margin-top: 10px;
+    padding: 10px;
+}
+#cultura-imagem-boidemamao{
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 3px solid #FF66C4;
+}
+#texto-cultura{
+    text-align: justify;
+    padding: 10px;
+}
+#titulo-cultura{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cultura2{
+width: 980px;
+height: 240px;
+display: flex;
+font-family: Helvetica;
+background-color: #c5cecf;
+margin-top: 10px;
+padding: 10px;
+}
+
+#imagem-cultura2{
+    width: 300;
+    height: 200;
+    margin: 0px;
+    border: 3px solid #28ff0d;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#texto-cultura2{
+    text-align: justify;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#titulo-cultura2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cultura3{
+    width: 980px;
+    height: 240px;
+    display: flex;
+    font-family: Helvetica;
+    background-color: #c5cecf;
+    margin-top: 10px;
+    padding: 10px; 
+}
+
+#imagem-cultura3{
+    width: 800px;
+    height: 200px;
+    margin: 0px;
+    border: 3px solid #ffbd59;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+
+footer {
+    background-color: #c5cecf;
+    color: black;
+    width: 1000px;
+    height: 50px;
+    bottom: 0px;  
+    text-align: center;
+    font-family: Helvetica;
+
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+#texto-footer{
+    margin-left: auto;
+    margin-right: auto;
+}

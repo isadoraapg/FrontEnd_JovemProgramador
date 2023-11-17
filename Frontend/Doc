@@ -1,0 +1,31 @@
+   PROJETO:
+    A ideia do projeto é desenvolver a criação da interface de
+um aplicativo para uma empresa já existente, a Limp Me.
+
+    EMPRESA:
+    A Limp Me fornece lavação automotiva à seco na casa 
+do cliente, utilizando produtos biodegradáveis e apenas
+1,5L de água. Promete uma limpeza sem utilizar energia 
+elétrica, sem tirar o carro do lugar, sem sujeira e
+silenciosa. Economiza 650L de água quando comparada a uma 
+lavação automotiva comum, promovendo a sustentabilidade através 
+do uso consciente de recursos naturais.
+
+    DESCRIÇÃO:
+    No aplicativo o cLiente faz o cadastro dos seus dados pessoais,
+cria um login e senha, cadastra os dados do carro e do pagamento, 
+faz a escolha do plano de assinatura e agendamento da limmpeza. 
+
+    REQUISITOS:
+    Cadastro cliente; Cadastro carro; Cadastro de pagamento; Seleção
+do plano de assinatura; Agendamento da limpeza. 
+
+    REGRAS:
+    No cadastro: 
+    Todos os dados assinalados com " * " devem ser preenchidos; 
+    Os clientes devem ser maiores de 18 anos; 
+    
+    OBS:
+    O projeto faz parte de uma disciplina do curso de Análise
+e Desenvolvimento de Sistemas, o qual eu achei pertinente trazer
+também para o desenvolvimento de front-end.

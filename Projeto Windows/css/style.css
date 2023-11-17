@@ -1,0 +1,187 @@
+.wallpaper {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.bottom-bar {
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #363638;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.search-box {
+  height: 30px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4a4a4e;
+}
+
+.button {
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color: transparent;
+  border: transparent;
+  transition: all 0.2s;
+  border: 10px solid transparent;
+}
+
+.button:hover {
+  border: 10px solid #4a4a4e;
+  border-radius: 5px;
+}
+
+#menu-suspenso {
+  background-color: #363638;
+  width: 550px;
+  height: 580px;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.visibilidade {
+  visibility: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100vw;
+  background-image: url("https://t2.tudocdn.net/579158?w=646&h=284");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.data-hora{
+    font-size: 0.8em;
+    margin-left: 470px;
+    
+}
+
+.prev-tempo{
+    margin-right: 470px;
+}
+
+.search-box2 {
+    height: 30px;
+    width: 520px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4a4a4e;
+  }
+
+  #itens-menu{
+    margin-bottom: 370px;
+    padding: 20px;
+    
+  }
+
+  #menu-menu{
+    display:table-row;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 0.8em;
+    color: white;  
+  }
+
+  .todos-app{
+    width: 170px;
+    height: 20px;
+    color: white;
+    border: transparent;
+    margin-left: 300px;
+    border-radius: 5px;
+    background-color: #4a4a4e;
+  }
+
+  .todos-app:hover{
+    background-color: #58585d;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  #menu-menu2{
+    display:table-row;
+    margin-left: 5px;
+    font-size: 0.8em;
+    color: white;  
+  }
+
+  .todos-app2{
+    width: 80px;
+    height: 20px;
+    color: white;
+    border: transparent;
+    margin-left: 390px;
+    border-radius: 5px;
+    background-color: #4a4a4e;
+  }
+
+  .todos-app2:hover{
+    background-color: #58585d;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .usuario{
+    width: 190px;
+    color: white;
+  }
+
+  .usuario:hover{
+    background-color: #58585d;
+    cursor: pointer;
+  }
+
+  .desligar:hover{
+    background-color: #58585d;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #itens-menumenu{
+    display:table-row;
+    margin-left: 5px;
+    padding: 0px;
+    font-size: 0.8em;
+    color: white;  
+    
+    width: 480px;
+  }
+
+  .pdf-button, .arqvscode-button{
+   
+    width: 200px;
+  }
+
+  .pdf-button:hover {
+    background-color: #58585d;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .arqvscode-button:hover {
+    background-color: #58585d;
+    cursor: pointer;
+    border-radius: 5px;
+  }
